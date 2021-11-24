@@ -144,7 +144,7 @@ If the user enters the terminal mode, new window will pop up simulating a termin
 
 ## Door code GUI
 
-If the user enters the terminal mode, new window will pop up simulating a terminal.
+If the user needs to enter a code to door, new small window will pop up.
 
 ## Door code GUI template
 
