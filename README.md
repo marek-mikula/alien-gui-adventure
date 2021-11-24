@@ -1,4 +1,4 @@
-# Alien console game
+# Alien GUI game
 
 Very basic console game written in Java. This was my school work during third semester. The game is inspired
 by [Zork](https://en.wikipedia.org/wiki/Zork). The base for GUI was taken from my work in second semester [here](https://github.com/marek-mikula/alien-console-adventure).
