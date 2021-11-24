@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How to play?</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<div class="p-2">
+    <h1>How to play?</h1>
+    <p>You can play the game only using predefined commands which you input into the text field in the left part of the game.</p>
+
+    <h1>Commands</h1>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Command name</th>
+            <th>Signature</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody class="border-top-0">
+        <tr>
+            <td>Help</td>
+            <td>
+                <span class="badge bg-secondary">help</span>
+            </td>
+            <td>Lists all available commands.</td>
+        </tr>
+        <tr>
+            <td>Search</td>
+            <td>
+                <span class="badge bg-secondary">search</span>
+            </td>
+            <td>Searches the current room and shows list of available items.</td>
+        </tr>
+        <tr>
+            <td>Pick</td>
+            <td>
+                <span class="badge bg-secondary">pick <i>{itemNumber}</i></span>
+            </td>
+            <td>Picks an item in the current room.</td>
+        </tr>
+        <tr>
+            <td>Drop</td>
+            <td>
+                <span class="badge bg-secondary">drop <i>{itemNumber}</i></span>
+            </td>
+            <td>Drops an item from inventory.</td>
+        </tr>
+        <tr>
+            <td>Go</td>
+            <td>
+                <span class="badge bg-secondary">go <i>{roomNumber OR "back"}</i></span>
+            </td>
+            <td>Moves Ellen to a different room. ```back``` keyword can be used.</td>
+        </tr>
+        <tr>
+            <td>Interact</td>
+            <td>
+                <span class="badge bg-secondary">interact <i>{itemNumber}</i></span>
+            </td>
+            <td>Interacts with an item in the current room. For example terminals, etc.</td>
+        </tr>
+        <tr>
+            <td>Open</td>
+            <td>
+                <span class="badge bg-secondary">open <i>{roomNumber}</i> <i>{itemNumber}</i></span>
+            </td>
+            <td>Opens the connection between rooms with an item from the inventory.</td>
+        </tr>
+        <tr>
+            <td>Clear</td>
+            <td>
+                <span class="badge bg-secondary">clear</span>
+            </td>
+            <td>Clears the GUI console output.</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
