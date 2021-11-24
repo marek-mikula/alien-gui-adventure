@@ -8,8 +8,11 @@ import javafx.scene.layout.*;
 public class LeftColumn implements LayoutPart {
 
     private final Input input;
+
     private final Output output;
+
     private final InventoryList inventoryList;
+
     private final ExitsList exitsList;
 
     private final VBox node = new VBox();

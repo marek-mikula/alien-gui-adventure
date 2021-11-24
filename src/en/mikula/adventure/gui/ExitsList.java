@@ -14,6 +14,7 @@ public class ExitsList implements LayoutPart, Observer {
     private final Gui gui;
 
     private final TitledPane node = new TitledPane();
+
     private final ListView<String> listView = new ListView<>();
 
     public ExitsList(Gui gui) {

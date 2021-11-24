@@ -7,10 +7,16 @@ import java.util.regex.Pattern;
 
 public class TerminalUtils {
 
+    /**
+     * Formats name for an option
+     */
     public static String formatOptions(TerminalOption option) {
         return "[" + option.getNumber() + "] " + option.getText();
     }
 
+    /**
+     * Extracts option number from formatted option string
+     */
     public static int extractOptionNumber(String text) {
         Pattern patter = Pattern.compile("\\[([0-9]+)]");
         Matcher matcher = patter.matcher(text);

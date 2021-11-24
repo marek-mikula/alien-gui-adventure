@@ -20,6 +20,7 @@ public class InventoryList implements LayoutPart, Observer {
     private final Gui gui;
 
     private final TitledPane node = new TitledPane();
+
     private final FlowPane flowPane = new FlowPane();
 
     public InventoryList(Gui gui) {

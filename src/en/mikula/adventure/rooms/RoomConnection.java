@@ -4,7 +4,7 @@ import java.util.Objects;
 
 /**
  * Room connection is used to connect rooms and let
- * the connection to have states (blocked, locked etc.)
+ * the connection have states (blocked, locked etc.)
  *
  * @author Marek Mikula
  * @version 4/9/2021

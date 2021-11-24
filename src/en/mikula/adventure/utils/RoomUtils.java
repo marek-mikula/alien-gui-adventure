@@ -7,10 +7,16 @@ import java.util.regex.Pattern;
 
 public class RoomUtils {
 
+    /**
+     * Formats name for a room
+     */
     public static String formatName(Room room) {
         return room.getName() + " [" + room.getRoomCode().getNumber() + "]";
     }
 
+    /**
+     * Extracts room number from formatted room name
+     */
     public static int extractRoomNumber(String text) {
         Pattern patter = Pattern.compile("\\[([0-9]+)]");
         Matcher matcher = patter.matcher(text);

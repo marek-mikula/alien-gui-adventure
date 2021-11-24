@@ -12,7 +12,6 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 import java.io.File;
-import java.net.URL;
 import java.util.Optional;
 
 public class MenuBar implements LayoutPart {

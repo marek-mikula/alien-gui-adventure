@@ -7,16 +7,13 @@ import javafx.scene.layout.HBox;
 
 public class MainHorizontalRow implements LayoutPart {
 
-    private final Gui gui;
-
     private final LeftColumn leftColumn;
+
     private final RightColumn rightColumn;
 
     private final HBox node = new HBox();
 
     public MainHorizontalRow(Gui gui) {
-        this.gui = gui;
-
         leftColumn = new LeftColumn(gui);
         rightColumn = new RightColumn(gui);
 

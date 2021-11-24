@@ -12,6 +12,7 @@ public class RightColumn implements LayoutPart {
     private final AnchorPane node = new AnchorPane();
 
     private final Map map;
+
     private final MapIndicator mapIndicator;
 
     public RightColumn(Gui gui) {

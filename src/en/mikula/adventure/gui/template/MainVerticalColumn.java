@@ -8,16 +8,13 @@ import javafx.scene.layout.VBox;
 
 public class MainVerticalColumn implements LayoutPart {
 
-    private final Gui gui;
-
     private final VBox node = new VBox();
 
     private final MainHorizontalRow mainHorizontalRow;
+
     private final MenuBar menuBar;
 
     public MainVerticalColumn(Gui gui) {
-        this.gui = gui;
-
         mainHorizontalRow = new MainHorizontalRow(gui);
         menuBar = new MenuBar(gui);
 
