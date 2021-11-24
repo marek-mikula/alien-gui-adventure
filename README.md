@@ -170,7 +170,7 @@ If the user needs to enter a code to door, new small window will pop up.
 +-----------------------------+
 </pre>
 
-## Terminal GUI components schema
+## Door code GUI components schema
 
 <pre>
 +---------------------------------+
